@@ -1,0 +1,13 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.myapplication.siddhartha.weathercheck.WeatherViewActivity">
+    <group android:id="@+id/units" android:title="@string/Units"
+        android:orderInCategory="100"  app:showAsAction="always"
+        android:enabled="true">
+    <item android:id="@+id/celicus" android:title="@string/Celsius"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/faran" android:title="@string/Fahrenheit"
+        android:orderInCategory="101" app:showAsAction="never" />
+    </group>
+</menu>
